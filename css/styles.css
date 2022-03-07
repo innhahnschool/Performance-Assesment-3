@@ -1,0 +1,462 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@400;900&display=swap');
+
+
+.list-right{
+    float: right;
+    color: #F9DEC9;
+    size: 16px;
+    text-align: center;
+    margin-right: 18px;
+    text-decoration: none;
+
+    
+}
+
+.list-left{
+    float: left;
+    color: #F9DEC9;
+    font-family: "Alfa Slab One";
+    margin-left: 6px;
+}
+
+.navMenu {
+    width: 100%;
+    height: auto;
+    top: 20%;
+    color: #F9DEC9;
+
+
+
+  }
+  
+  .navMenu a {
+    color: #F9DEC9;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 2px;
+    text-decoration: none;
+    display: block;
+    size: 16px;
+    top: 50%;
+
+    font-family: "Chivo", sans-serif;
+
+  }
+  
+  .navMenu a:hover {
+    color: #BA1200;
+  }
+ 
+
+.image{
+    width: 100%;
+    height: auto;
+    z-index: -4;
+}
+.firstpage{
+    height: 880px;
+    width: 100%;
+    background-color: #090809;
+}
+.secondpage{
+    height: 880px;
+    width: 100%;
+    background-color: #090809;
+    position: relative;
+}
+.thirdpage{
+    height: 880px;
+    width: 100%;
+    background-color: #F9DEC9;
+    position: relative;
+}
+.fourthpage{
+  height: 880px;
+  width: 100%;
+  background-color: #090809;
+  position: relative;
+}
+.firstpage-text{
+    position: absolute;
+    bottom: 6px;
+    right: 16px;
+}
+.secondpage-text{
+    position: absolute;
+    bottom: 160px;
+    right: 0px;
+}
+.thirdpage-text{
+    position: absolute;
+    bottom: 300px;
+    right: 0px;
+}
+.fourthpage-text{
+  position: absolute;
+  bottom: 300px;
+  right: 0px;
+}
+
+
+  .firstpage-text aside {
+    display: block;
+    position: relative;
+  }
+  
+  .firstpage-text aside h3 {
+    font: bold 124px Sans-Serif;
+    font-family: "Chivo", sans-serif;
+    letter-spacing: 4px;
+    color: #BA1200;
+    transform: rotate(90deg);
+    margin-right: -90px;
+  }
+
+  .secondpage-text aside{ 
+    display: block;
+    position: relative;
+  }
+  
+  .secondpage-text aside h3{ 
+    font: bold 124px Sans-Serif;
+    font-family: "Chivo", sans-serif;
+    letter-spacing: 4px;
+    color: #BA1200;
+    transform: rotate(90deg);
+    margin-right: -120px;
+  }
+
+  .thirdpage-text aside{ 
+    display: block;
+    position: relative;
+  }
+  
+  .thirdpage-text aside h3{ 
+    font: bold 124px Sans-Serif;
+    font-family: "Chivo", sans-serif;
+    letter-spacing: 4px;
+    color: #BA1200;
+    transform: rotate(90deg);
+    margin-right: -240px;
+
+  }
+  .fourthpage-text aside{ 
+    display: block;
+    position: relative;
+  }
+  
+  .fourthpage-text aside h3{ 
+    font: bold 124px Sans-Serif;
+    font-family: "Chivo", sans-serif;
+    letter-spacing: 4px;
+    color: #BA1200;
+    transform: rotate(90deg);
+    margin-right: -200px;
+
+  }
+
+.owner-name{
+    font-family: "Alfa Slab One";
+    font-size: 64px;
+    color: white;
+    margin-left: 8px;
+}
+
+.owner-info{
+    font-family: "Chivo";
+    font-size: 18px;
+    color: white;
+    margin-left: 8px;
+}
+
+.image-owner{
+    width: auto;
+    height: auto;
+    z-index: -4;
+}
+
+button{ 
+    background-color: #F9DEC9;
+    font-family: "Chivo", sans-serif;
+    border-color: #F9DEC9;
+    color: #090809;
+}
+button:hover{ 
+    background-color: #BA1200;
+    border-color: #BA1200;
+    color: #F9DEC9;
+}
+
+p{
+    color: #F9DEC9;
+}
+
+h4{
+  color: #F9DEC9;
+}
+
+.footer-distributed {
+  background-color: #F9DEC9;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 45px 50px;
+}
+
+.footer-distributed .footer-left p {
+  color: #BA1200;
+  font-size: 18px;
+  margin: 0;
+}
+.footer-distributed h1{
+  font-size: 24px;
+  font-weight: bold;
+  color: #BA1200;
+  background-color: #F9DEC9;
+
+}
+
+.footer-distributed .footer-right {
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+  background-color: #F9DEC9;
+
+}
+
+.footer-distributed .footer-right a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: #BA1200;
+  border-radius: 2px;
+  font-size: 25px;
+  color: #F9DEC9;
+  text-align: center;
+  line-height: 40px;
+  margin-left: 3px;
+  transition:all .25s;
+}
+
+.footer-distributed .footer-right a:hover{
+  transform:scale(1.1); -webkit-transform:scale(1.1);
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 18px; /* Some padding */ 
+  border: 1px solid #090809; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 8px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+input[type=email], select, textarea {
+  width: 100%; /* Full width */
+  padding: 18px; /* Some padding */ 
+  border: 1px solid #090809; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 8px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #F9DEC9;
+  color: #090809;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #BA1200;
+  color: #F9DEC9;
+}
+#draggable {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 100%;
+
+  font-family: "Chivo";
+}
+
+#draggable h3 {
+  font-family: "Chivo", bold;
+}
+#draggable1 {
+  border-radius: 5px;
+  background-color: #090809;
+  padding: 20px;
+  width: 400px;
+  top: 5%;
+  align-items: center;
+  text-align: center;
+  font-family: "Chivo";
+}
+#draggable1 h3 {
+  font-family: "Chivo", bold;
+  color: #F9DEC9;
+  size: 16px;
+}
+
+#draggable1 hr {
+  text-align: center;
+  width: 50%;
+  border-width: 4px;
+  height: 2px;
+  color: #F9DEC9;
+}
+
+#draggable2 {
+  border-radius: 5px;
+  background-color: #090809;
+  padding: 20px;
+  width: 400px;
+  top: 5%;
+  align-items: center;
+  text-align: center;
+  font-family: "Chivo";
+}
+#draggable2 h3 {
+  font-family: "Chivo", bold;
+  color: #F9DEC9;
+  size: 16px;
+}
+
+#draggable2 hr {
+  text-align: center;
+  width: 50%;
+  border-width: 4px;
+  height: 2px;
+  color: #F9DEC9;
+}
+#draggable3 {
+  border-radius: 5px;
+  background-color: #090809;
+  padding: 20px;
+  width: 400px;
+  top: 5%;
+  align-items: center;
+  text-align: center;
+  font-family: "Chivo";
+}
+#draggable3 h3 {
+  font-family: "Chivo", bold;
+  color: #F9DEC9;
+  size: 16px;
+}
+
+#draggable3 hr {
+  text-align: center;
+  width: 50%;
+  border-width: 4px;
+  height: 2px;
+  color: #F9DEC9;
+}
+
+#draggable4 {
+  border-radius: 5px;
+  background-color: #090809;
+  padding: 20px;
+  width: 400px;
+  top: 10%;
+  align-items: center;
+  text-align: center;
+  font-family: "Chivo";
+}
+#draggable4 h3 {
+  font-family: "Chivo", bold;
+  color: #F9DEC9;
+  size: 16px;
+}
+
+#draggable4 hr {
+  text-align: center;
+  width: 50%;
+  border-width: 4px;
+  height: 2px;
+  color: #F9DEC9;
+}
+
+#draggable5 {
+  border-radius: 5px;
+  background-color: #090809;
+  padding: 20px;
+  width: 400px;
+  top: 10%;
+  align-items: center;
+  text-align: center;
+  font-family: "Chivo";
+}
+#draggable5 h3 {
+  font-family: "Chivo", bold;
+  color: #F9DEC9;
+  size: 16px;
+}
+
+#draggable5 hr {
+  text-align: center;
+  width: 50%;
+  border-width: 4px;
+  height: 2px;
+  color: #F9DEC9;
+}
+
+#draggable6 {
+  border-radius: 5px;
+  background-color: #090809;
+  padding: 20px;
+  width: 400px;
+  top: 10%;
+  align-items: center;
+  text-align: center;
+  font-family: "Chivo";
+}
+#draggable6 h3 {
+  font-family: "Chivo", bold;
+  color: #F9DEC9;
+  size: 16px;
+}
+
+#draggable6 hr {
+  text-align: center;
+  width: 50%;
+  border-width: 4px;
+  height: 2px;
+  color: #F9DEC9;
+}
+
+hr {
+  text-align: center;
+  width: 50%;
+  border-width: 4px;
+  color: #BA1200;
+}
+
+.thirdpage-image{
+  height: 250px;
+  width: auto;
+}
+
+.contact-image{
+  margin-top: -50px;
+  width: 120%;
+  z-index: -40%;
+  height: 880px;
+}
